@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PlanetGeneratorDefinitions>
-
     <!-- Desolate world of dust, rocks and sand -->
     <PlanetGeneratorDefinition>
       <Id>
@@ -17,9 +16,9 @@
         <Transition>10</Transition>
       </SurfaceDetail>
 
-      <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+      <PlanetMaps Material="false" Ores="true" Biome="false" Occlusion="true"/>
 
-      <CustomMaterialTable>
+<!--       <CustomMaterialTable>
         <Material Material="Desert" Value ="0" MaxDepth ="3"/>
         <Material Material="CrackedSoil" Value ="10" MaxDepth ="1"/>
         <Material Material="Sand_02" Value ="25" MaxDepth ="5"/>
@@ -27,7 +26,7 @@
         <Material Material="AlienRockyMountain" Value ="200" MaxDepth ="3"/>
         <Material Material="AlienRockyMountain" Value ="230" MaxDepth ="3"/>
         <Material Material="AlienRockyMountain" Value ="255" MaxDepth ="3"/>
-      </CustomMaterialTable>
+      </CustomMaterialTable> -->
 
       <DistortionTable>
         <Distortion Type="Perlin" Value ="200" Frequency="60" Height="4" LayerCount="6"/>
@@ -165,12 +164,15 @@
       </SoundRules>
 
       <ComplexMaterials>
-        <MaterialGroup Name="Top Mountains" Value="255">
+
+        <MaterialGroup Name="Default" Value="0">
+
+        <!-- <MaterialGroup Name="Top Mountains" Value="255"> -->
           <Rule>
             <Layers>
               <Layer Material="AlienRockyMountain" Depth="3"/>
             </Layers>
-            <Height Min="0.5" Max="1.0"/>
+            <Height Min="0.67" Max="1.0"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="0" Max="15"/>
           </Rule>
@@ -178,7 +180,7 @@
             <Layers>
               <Layer Material="DesertRocks" Depth="10"/>
             </Layers>
-            <Height Min="0.5" Max="1.0"/>
+            <Height Min="0.67" Max="1.0"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="15" Max="90"/>
           </Rule>
@@ -187,85 +189,125 @@
               <Layer Material="Snow" Depth="1"/>
               <Layer Material="AlienRockyMountain" Depth="5"/>
             </Layers>
-            <Height Min="0.5" Max="1.0"/>
+            <Height Min="0.67" Max="1.0"/>
             <Latitude Min="60" Max="90"/>
             <Slope Min="0" Max="15"/>
           </Rule>
-        </MaterialGroup>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Middle Mountains" Value="230">
+        <!-- <MaterialGroup Name="Middle Mountains" Value="230"> -->
           <Rule>
             <Layers>
               <Layer Material="DesertRocks" Depth="10"/>
             </Layers>
-            <Height Min="0.5" Max="1.0"/>
+            <Height Min="0.6" Max="0.67"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="15" Max="90"/>
           </Rule>
-        </MaterialGroup>
+          <Rule>
+            <Layers>
+              <Layer Material="AlienRockyMountain" Depth="10"/>
+            </Layers>
+            <Height Min="0.6" Max="0.67"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="15"/>
+          </Rule>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Lower Mountains" Value="200">
+        <!-- <MaterialGroup Name="Lower Mountains" Value="200"> -->
+          <Rule>
+            <Layers>
+              <Layer Material="AlienRockyMountain" Depth="10"/>
+            </Layers>
+            <Height Min="0.5" Max="0.6"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="10" Max="90"/>
+          </Rule>
           <Rule>
             <Layers>
               <Layer Material="DesertRocks" Depth="10"/>
             </Layers>
-            <Height Min="0.5" Max="1.0"/>
+            <Height Min="0.5" Max="0.6"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="20" Max="90"/>
           </Rule>
-        </MaterialGroup>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Desert rocks" Value="49">
+        <!-- <MaterialGroup Name="Desert rocks" Value="49"> -->
           <Rule>
             <Layers>
-              <Layer Material="AlienRockyMountain" Depth="1"/>
+              <Layer Material="Sand_02" Depth="5"/>
             </Layers>
-            <Height Min="0.7" Max="0.9"/>
+            <Height Min="0.12" Max="0.5"/>
             <Latitude Min="0" Max="90"/>
-            <Slope Min="0" Max="10"/>
+            <Slope Min="0" Max="5"/>
           </Rule>
 
           <Rule>
             <Layers>
-              <Layer Material="Sand_02" Depth="1"/>
+              <Layer Material="DesertRocks" Depth="5"/>
             </Layers>
-            <Height Min="0.6" Max="0.9"/>
+            <Height Min="0.12" Max="0.5"/>
             <Latitude Min="0" Max="90"/>
-            <Slope Min="10" Max="90"/>
+            <Slope Min="5" Max="90"/>
           </Rule>
-        </MaterialGroup>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Sand plains" Value="25">
+        <!-- <MaterialGroup Name="Sand plains" Value="25"> -->
           <Rule>
             <Layers>
               <Layer Material="Sand_02" Depth="5"/>
               <Layer Material="DesertRocks" Depth="5"/>
             </Layers>
-            <Height Min="0.2" Max="0.8"/>
+            <Height Min="0.07" Max="0.12"/>
             <Latitude Min="0" Max="90"/>
-            <Slope Min="0" Max="10"/>
+            <Slope Min="0" Max="30"/>
           </Rule>
-        </MaterialGroup>
+          <Rule>
+            <Layers>
+              <Layer Material="DesertRocks" Depth="5"/>
+            </Layers>
+            <Height Min="0.07" Max="0.12"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="30" Max="90"/>
+          </Rule>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Dusty spaces" Value="10">
+        <!-- <MaterialGroup Name="Dusty spaces" Value="10"> -->
+          <Rule>
+            <Layers>
+              <Layer Material="CrackedSoil" Depth="5"/>
+            </Layers>
+            <Height Min="0.06" Max="0.07"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="40"/>
+          </Rule>
           <Rule>
             <Layers>
               <Layer Material="Sand_02" Depth="5"/>
               <Layer Material="CrackedSoil" Depth="5"/>
             </Layers>
-            <Height Min="0.7" Max="0.9"/>
+            <Height Min="0.06" Max="0.07"/>
             <Latitude Min="0" Max="90"/>
-            <Slope Min="15" Max="60"/>
+            <Slope Min="40" Max="60"/>
           </Rule>
-        </MaterialGroup>
+        <!-- </MaterialGroup> -->
 
-        <MaterialGroup Name="Desert" Value="0">
+        <!-- <MaterialGroup Name="Desert" Value="0"> -->
+          <Rule>
+            <Layers>
+              <Layer Material="Desert" Depth="5"/>
+            </Layers>
+            <Height Min="0.0" Max="0.05"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="15"/>
+          </Rule>
           <Rule>
             <Layers>
               <Layer Material="Desert" Depth="1"/>
               <Layer Material="DesertRocks" Depth="5"/>
             </Layers>
-            <Height Min="0.0" Max="0.9"/>
+            <Height Min="0.0" Max="0.05"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="15" Max="60"/>
           </Rule>
@@ -275,7 +317,8 @@
       <EnvironmentItems>
         <Item>
           <Biomes>
-            <Biome>25</Biome>
+            <!-- <Biome>25</Biome> -->
+            <Biome>0</Biome>
           </Biomes>
           <Materials>
             <Material>Sand_02</Material>
@@ -288,7 +331,7 @@
             <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetDesertRocks" Density="0.003" />
           </Items>
           <Rule>
-            <Height Min="0" Max="0.9"/>
+            <Height Min="0.07" Max="0.12"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="0" Max="15"/>
           </Rule>
@@ -296,19 +339,21 @@
 
         <Item>
           <Biomes>
-            <Biome>49</Biome>
+            <!-- <Biome>49</Biome> -->
+            <Biome>0</Biome>
           </Biomes>
           <Materials>
+            <Material>Sand_02</Material>
             <Material>DesertRocks</Material>
           </Materials>
           <Items>
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.012" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.008" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.006" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetDesertRocks" Density="0.003" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.024" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.0016" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0012" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetDesertRocks" Density="0.006" />
           </Items>
           <Rule>
-            <Height Min="0" Max="0.7"/>
+            <Height Min="0.12" Max="0.5"/>
             <Latitude Min="0" Max="90"/>
             <Slope Min="0" Max="15"/>
           </Rule>
@@ -316,7 +361,8 @@
 
         <Item>
           <Biomes>
-            <Biome>255</Biome>
+            <!-- <Biome>255</Biome> -->
+            <Biome>0</Biome>
           </Biomes>
           <Materials>
             <Material>Snow</Material>
@@ -328,7 +374,7 @@
             <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowStones" ModifierId="DustyDesertPlanetMountainsSnow" Density="0.003" />
           </Items>
           <Rule>
-            <Height Min="0" Max="0.7"/>
+            <Height Min="0.67" Max="1"/>
             <Latitude Min="70" Max="90"/>
             <Slope Min="0" Max="10"/>
           </Rule>
@@ -336,26 +382,45 @@
 
         <Item>
           <Biomes>
-            <Biome>255</Biome>
+            <!-- <Biome>255</Biome> -->
+            <Biome>0</Biome>
           </Biomes>
           <Materials>
             <Material>AlienRockyMountain</Material>
           </Materials>
           <Items>
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.012" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.008" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.006" />
-            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetMountains" Density="0.003" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.024" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.016" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.012" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetMountains" Density="0.006" />
           </Items>
           <Rule>
-            <Height Min="0" Max="0.7"/>
+            <Height Min="0.5" Max="1"/>
             <Latitude Min="70" Max="90"/>
             <Slope Min="0" Max="10"/>
           </Rule>
         </Item>
+        <Item>
+          <Biomes>
+            <!-- <Biome>255</Biome> -->
+            <Biome>0</Biome>
+          </Biomes>
+          <Materials>
+            <Material>DesertRocks</Material>
+          </Materials>
+          <Items>
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.024" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.016" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.012" />
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="Stones" ModifierId="DustyDesertPlanetDesertRocks" Density="0.006" />
+          </Items>
+          <Rule>
+            <Height Min="0.5" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="15"/>
+          </Rule>
+        </Item>
       </EnvironmentItems>
-
-      <!-- Mars Atmosphere settings-->
 
       <AtmosphereSettings>
         <RayleighScattering>
@@ -377,13 +442,13 @@
         <Intensity>2.5</Intensity>
         <SeaLevelModifier>0.992</SeaLevelModifier>
         <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-        <FogIntensity>0.65</FogIntensity>
+        <FogIntensity>0.35</FogIntensity>
         <Scale>1</Scale>
       </AtmosphereSettings>
 
       <MaximumOxygen>1.0</MaximumOxygen>
       <SurfaceGravity>1.0</SurfaceGravity>
-      <DefaultSurfaceMaterial Material="Sand_02" MaxDepth="4"/>
+      <DefaultSurfaceMaterial Material="DesertRocks" MaxDepth="4"/>
       <DefaultSubSurfaceMaterial Material="AlienRockyMountain"/>
       <MaterialsMaxDepth Min="4000" Max="4000"/>
       <MaterialsMinDepth Min="0" Max="20"/>
@@ -511,7 +576,6 @@
           <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
         </CloudLayer>
       </CloudLayers>
-
 
     </PlanetGeneratorDefinition>
   </PlanetGeneratorDefinitions>
