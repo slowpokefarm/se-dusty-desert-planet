@@ -16,7 +16,7 @@
         <Transition>10</Transition>
       </SurfaceDetail>
 
-      <PlanetMaps Material="false" Ores="true" Biome="false" Occlusion="true"/>
+      <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
 
 <!--       <CustomMaterialTable>
         <Material Material="Desert" Value ="0" MaxDepth ="3"/>
