@@ -163,6 +163,13 @@
 
       </SoundRules>
 
+      <MusicCategories>
+        <MusicCategory Category="Planet" Frequency="0.7" />
+        <MusicCategory Category="Mystery" Frequency="0.05" />
+        <MusicCategory Category="Danger" Frequency="0.125" />
+        <MusicCategory Category="Calm" Frequency="0.125" />
+      </MusicCategories>
+
       <ComplexMaterials>
 
         <MaterialGroup Name="Default" Value="0">
@@ -462,120 +469,118 @@
         <LimitAltitude>2.0</LimitAltitude>
       </Atmosphere>
 
-      <CloudLayers>
-        <CloudLayer>
-          <!-- Far layer -->
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-          </Textures>
-          <RelativeAltitude>-0.2</RelativeAltitude>
-          <RotationAxis>
-            <X>-0.2</X>
-            <Y>1</Y>
-            <Z>0.2</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0002</AngularVelocity>
-          <InitialRotation>1.2</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-          <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-        </CloudLayer>
+    <CloudLayers>
+      <CloudLayer>
+        <!-- Far layer -->
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>-0.2</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
 
-        <CloudLayer>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-          </Textures>
-          <RelativeAltitude>-0.2</RelativeAltitude>
-          <RotationAxis>
-            <X>-0.2</X>
-            <Y>0.2</Y>
-            <Z>1</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0002</AngularVelocity>
-          <InitialRotation>3.2</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-          <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-        </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>-0.2</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>3.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>-0.2</RelativeAltitude>
+        <RotationAxis>
+          <X>0.5</X>
+          <Y>-0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>0.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
 
-        <CloudLayer>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-          </Textures>
-          <RelativeAltitude>-0.2</RelativeAltitude>
-          <RotationAxis>
-            <X>0.5</X>
-            <Y>-0.2</Y>
-            <Z>1</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0002</AngularVelocity>
-          <InitialRotation>0.2</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-          <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-        </CloudLayer>
+      <!-- Near layers -->
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1</RelativeAltitude>
+        <RotationAxis>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.15</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
 
-        <!-- Near layers -->
-        <CloudLayer>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-          </Textures>
-          <RelativeAltitude>1</RelativeAltitude>
-          <RotationAxis>
-            <X>0</X>
-            <Y>1</Y>
-            <Z>0</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0006</AngularVelocity>
-          <InitialRotation>0.15</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
-        </CloudLayer>
-
-        <CloudLayer>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-          </Textures>
-          <RelativeAltitude>1.2</RelativeAltitude>
-          <RotationAxis>
-            <X>0.2</X>
-            <Y>1</Y>
-            <Z>-0.2</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0006</AngularVelocity>
-          <InitialRotation>0.5</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
-        </CloudLayer>
-
-        <CloudLayer>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-          <Textures>
-            <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-          </Textures>
-          <RelativeAltitude>1.4</RelativeAltitude>
-          <RotationAxis>
-            <X>-0.2</X>
-            <Y>1</Y>
-            <Z>0.2</Z>
-          </RotationAxis>
-          <AngularVelocity>0.0006</AngularVelocity>
-          <InitialRotation>1.2</InitialRotation>
-          <ScalingEnabled>false</ScalingEnabled>
-          <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
-          <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        </CloudLayer>
-      </CloudLayers>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.2</RelativeAltitude>
+        <RotationAxis>
+          <X>0.2</X>
+          <Y>1</Y>
+          <Z>-0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.5</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.4</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+    </CloudLayers>
 
     </PlanetGeneratorDefinition>
   </PlanetGeneratorDefinitions>

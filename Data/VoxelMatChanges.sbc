@@ -40,6 +40,13 @@
                 <Change From="Iron_02" To="Gold_01" />
               </Changes>
             </Option>
+            <Option Chance="0.03">
+              <Changes>
+                <Change From="Stone" To="AlienRockyMountain" />
+                <Change From="Iron_01" To="Platinum_01" />
+                <Change From="Iron_02" To="Platinum_01" />
+              </Changes>
+            </Option>
             <Option Chance="0.1">
               <Changes>
                 <Change From="Stone" To="AlienRockyMountain" />
@@ -147,6 +154,13 @@
                 <Change From="Stone" To="DesertRocks" />
                 <Change From="Iron_01" To="Uraninite_01" />
                 <Change From="Iron_02" To="Uraninite_01" />
+              </Changes>
+            </Option>
+            <Option Chance="0.03">
+              <Changes>
+                <Change From="Stone" To="DesertRocks" />
+                <Change From="Iron_01" To="Platinum_01" />
+                <Change From="Iron_02" To="Platinum_01" />
               </Changes>
             </Option>
             <Option Chance="0.03">
