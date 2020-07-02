@@ -38,7 +38,7 @@
       </PostprocessingSteps>
     </MesherPostprocessing>
     <CustomMaterialTable>
-      <Material Material="Desert" MaxDepth="3" Value="0"/>
+      <Material Material="MarsSoil" MaxDepth="3" Value="0"/>
       <Material Material="MarsRocks" MaxDepth="1" Value="10"/>
       <Material Material="Sand_02" MaxDepth="5" Value="25"/>
       <Material Material="DesertRocks" MaxDepth="3" Value="49"/>
@@ -49,9 +49,9 @@
     <DistortionTable>
       <Distortion Frequency="2" Height="2" LayerCount="6" Type="Billow" Value="200"/>
       <!-- <Distortion Frequency="10" Height="4" LayerCount="6" Type="Perlin" Value="92"/>-->
-       <Distortion Frequency="0.5" Height="5" LayerCount="5" Type="Perlin" Value="50"/>
-       <Distortion Frequency="0.5" Height="1" LayerCount="5" Type="Perlin" Value="150"/>
-       <Distortion Frequency="0.5" Height="1" LayerCount="5" Type="Perlin" Value="200"/>
+      <Distortion Frequency="0.5" Height="5" LayerCount="5" Type="Perlin" Value="50"/>
+      <Distortion Frequency="0.5" Height="1" LayerCount="5" Type="Perlin" Value="150"/>
+      <Distortion Frequency="0.5" Height="1" LayerCount="5" Type="Perlin" Value="200"/>
     </DistortionTable>
     <OreMappings>
       <!--!INSERT ONLY IN BLUE CHANNEL on MaterialTexture -->
@@ -290,7 +290,7 @@
       <MaterialGroup Name="Desert" Value="0">
         <Rule>
           <Layers>
-            <Layer Depth="5" Material="Desert"/>
+            <Layer Depth="5" Material="MarsSoil"/>
           </Layers>
           <Height Max="0.05" Min="0.0"/>
           <Latitude Max="90" Min="0"/>
@@ -298,7 +298,7 @@
         </Rule>
         <Rule>
           <Layers>
-            <Layer Depth="1" Material="Desert"/>
+            <Layer Depth="1" Material="MarsSoil"/>
             <Layer Depth="5" Material="DesertRocks"/>
           </Layers>
           <Height Max="0.05" Min="0.0"/>
@@ -447,6 +447,7 @@
       <OxygenDensity>0.9</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
     <CloudLayers>
       <CloudLayer>
@@ -557,5 +558,73 @@
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
     </CloudLayers>
+  
+  <WeatherFrequencyMin>600</WeatherFrequencyMin>
+  <WeatherFrequencyMax>5400</WeatherFrequencyMax>
+  <WeatherGenerators>
+    <WeatherGenerator>
+      <Voxel>Sand</Voxel>
+      <Weathers>
+        <Weather>
+          <Name>SandStormLight</Name>
+          <Weight>2</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1800</MaxLength>
+        </Weather>
+        <Weather>
+          <Name>SandStormHeavy</Name>
+          <Weight>1</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>3600</MaxLength>
+        </Weather>
+        <Weather>
+          <Name>Dust</Name>
+          <Weight>3</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1200</MaxLength>
+        </Weather>
+      </Weathers>
+    </WeatherGenerator>
+    <WeatherGenerator>
+      <Voxel>MarsSoil</Voxel>
+      <Weathers>
+        <Weather>
+          <Name>SandStormLight</Name>
+          <Weight>2</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1800</MaxLength>
+        </Weather>
+        <Weather>
+          <Name>SandStormHeavy</Name>
+          <Weight>1</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>3600</MaxLength>
+        </Weather>
+        <Weather>
+          <Name>Dust</Name>
+          <Weight>3</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1200</MaxLength>
+        </Weather>
+      </Weathers>
+    </WeatherGenerator>
+    <WeatherGenerator>
+      <Voxel>Rock</Voxel>
+      <Weathers>
+        <Weather>
+          <Name>SandStormLight</Name>
+          <Weight>2</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1800</MaxLength>
+        </Weather>
+        <Weather>
+          <Name>Dust</Name>
+          <Weight>3</Weight>
+          <MinLength>300</MinLength>
+          <MaxLength>1200</MaxLength>
+        </Weather>
+      </Weathers>
+    </WeatherGenerator>
+  </WeatherGenerators>
   </Definition>
 </Definitions>
