@@ -1,0 +1,1307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m_d",
+				"m_drillBase"
+			],
+			[
+				"S",
+				"SmallBlockVaporator"
+			],
+			[
+				"w",
+				"w_density"
+			],
+			[
+				"Deser",
+				"DesertRocks"
+			],
+			[
+				"Dusty",
+				"DustyDesertPlanet"
+			],
+			[
+				"foto",
+				"fotoramaDiv"
+			],
+			[
+				"re",
+				"reInit"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/Vaporator.cs",
+			"settings":
+			{
+				"buffer_size": 4550,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/AtmosphereDetector.cs",
+			"settings":
+			{
+				"buffer_size": 1197,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Data/DustyDesertPlanet.sbc",
+			"settings":
+			{
+				"buffer_size": 24762,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Games/Need for Speed - Most Wanted/d3d9.ini",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/Documents/My Games/OpenMW/launcher.cfg",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/Documents/My Games/OpenMW/settings.cfg",
+			"settings":
+			{
+				"buffer_size": 2051,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Games/TES3MP/tes3mp-server-default.cfg",
+			"settings":
+			{
+				"buffer_size": 437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Games/TES3MP/tes3mp-client-default.cfg",
+			"settings":
+			{
+				"buffer_size": 497,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/AppData/Roaming/Fallout/5e858937cf54aeb9bf2108ddd8336de9/f1_res.ini",
+			"settings":
+			{
+				"buffer_size": 1195,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Games/OpenMW/openmw.cfg",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "# File created by ZBrush\n# ToolType: PolyMesh3D\n# www.zbrush.com\nnewmtl defaultMat\nmap_Kd headm13.bmp\n",
+			"file": "/D/WORK/Morrowind/Heads/Obj/headm13.mtl",
+			"file_size": 102,
+			"file_write_time": 132080923973070241,
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/Documents/My Games/OpenMW/Fonts/openmw_font.xml",
+			"settings":
+			{
+				"buffer_size": 2336,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Data/AmbientSounds.sbc",
+			"settings":
+			{
+				"buffer_size": 2325,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/WorldPlanets.cs",
+			"settings":
+			{
+				"buffer_size": 1415,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/modinfo.sbmi",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/md-to-word.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"form",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"task",
+				"Tasks: Archive"
+			],
+			[
+				"tas",
+				"Tasks: Archive"
+			],
+			[
+				"prev",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"move",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"save",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"mar",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"expo",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markd",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet/Data",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data"
+	],
+	"file_history":
+	[
+		"/D/Games/TES3MP/settings-default.cfg",
+		"/D/Games/OpenMW 0.46.0/openmw.cfg",
+		"/C/Users/Poke/Documents/My Games/OpenMW/openmw.cfg",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR04.645/Data/Scripts/Windmill/WorldPlanets.cs",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR01.411/Data/Scripts/Windmill/AtmosphereDetector.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/SpaceEngineers.log",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet/Data/DustyDesertPlanet.sbc",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet/Data/VoxelMatChanges.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialChanges.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/PlanetGeneratorDefinitions.sbc",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/Vaporator.cs",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR00.977/Data/Scripts/CobbleGen/CobbleGen/CobbleGen.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/CubeBlocks.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineersModSDK/OriginalContent/Models/Cubes/large/Assembler.xml",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/Audio.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/CubeBlocks.sbc",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Textures/2png.bat",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/MyVaporator.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Models/Vaporator_Large.xml",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Textures/2lower.bat",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Models/Vaporator_Large.blockdef.xml",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Models/Vaporator_Large.mwm.log",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Новая папка/Windmill/DynamoBasis.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/CobbleGen/CobbleGen/Aerodynamics.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/AtmosphereDetector.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/WorldPlanets.cs",
+		"/D/Projects/web/sp/themes/sp/pages/purchase/index.htm",
+		"/D/Projects/web/sp/plugins/giveandgo/spmain/Plugin.php",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR02.521/Data/Scripts/CobbleGen/CobbleGen/CobbleGen.cs",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet/Data/AmbientSounds.sbc",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/DustyDesertPlanet/modinfo.sbmi",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR60.146/Data/vanillaeditPlanetGenDefs.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR00.367/Data/vanillaeditPlanetGenDefs.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR01.719/Data/PlanetGeneratorDefinitions_DustyDesertPlanet.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR15.261/Data/Trees.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR12.523/Data/EnvironmentItemClasses.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/VoxelMapStorages.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR69.012/Data/vanillaeditPlanetGenDefs.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR02.149/Data/vanillaeditPlanetGenDefs.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR01.644/Data/Audio.sbc",
+		"/D/planet/nova.bat",
+		"/D/planet/biomes.col",
+		"/D/planet/smooth.col",
+		"/D/planet/Manual.txt",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/Planettest/Data/PlanetGeneratorDefinitions_DustyDesertPlanet.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/EnvironmentItemClasses.sbc",
+		"/C/Users/Poke/AppData/Local/Temp/Rar$DR00.047/Data/PlanetGeneratorDefinitions_SandyPlanet.sbc",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/Planettest/PlanetGeneratorDefinitions_DustyDesertPlanet.sbc",
+		"/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/Planettest/PlanetGeneratorDefinitions.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/PhysicalMaterials.sbc",
+		"/D/Games/Steam/steamapps/common/SpaceEngineers/Content/Data/MaterialProperties.sbc",
+		"/D/Dropbox/prototypes/remote/plugins/slowslow/re39/Plugin.php",
+		"/D/Dropbox/prototypes/remote/plugins/slowslow/re39/components/offers/card.htm",
+		"/D/Dropbox/prototypes/remote/plugins/slowslow/re39/components/offers/list-item.htm",
+		"/D/Dropbox/prototypes/remote/plugins/slowslow/re39/components/offers/catalog-list.htm",
+		"/D/Dropbox/prototypes/remote/themes/re39/layouts/default.htm",
+		"/D/planet/Olsson.col",
+		"/D/Dropbox/prototypes/remote/themes/re39/layouts/static-default.htm",
+		"/D/Dropbox/prototypes/remote/sftp-config.json",
+		"/D/Dropbox/PlainText/@Drafts/трекеры.md",
+		"/D/Dropbox/PlainText/@Inbox/self-reliance-ru.md",
+		"/D/Dropbox/PlainText/@Personal/личные.todo",
+		"/D/WORK/SMM/ViKing/Ignore/club99557374.txt",
+		"/C/Users/Poke/AppData/Roaming/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/C/Users/Poke/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/Users/Poke/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/Dropbox/PlainText/@Projects/tasks.todo",
+		"/D/Dropbox/PlainText/@Journal/2015/05/2015-05-12.md",
+		"/D/WORK/Parser/Настройки парсеров/www.kudel.ru.xlp",
+		"/D/WORK/SMM/Botovod/mind.dat",
+		"/D/Dropbox/PlainText/@Journal/2015/05/2015-05-08.md",
+		"/C/Users/Slow/Downloads/yml.php.xml",
+		"/C/Users/Slow/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/D/Dropbox/PlainText/@Journal/2015/05/2015-05-07.md",
+		"/D/Dropbox/PlainText/@Journal/2015/05/2015-05-06.md",
+		"/D/Dropbox/PlainText/@Projects/Printer/Блокнот.md",
+		"/C/Users/Slow/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-29.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-28.md",
+		"/C/Users/Slow/Documents/sp/Арбалеты/Пистолетного типа.csv",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-27.md",
+		"/D/Dropbox/PlainText/@Drafts/Сделать хоть однажды.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-20.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-22.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-21.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-24.md",
+		"/D/Downloads/files/{parser}/Арбалеты, луки, дартс_Винтовочного типа.csv",
+		"/D/Downloads/Lookup_v1049.xla",
+		"/D/Dropbox/PlainText/1.html",
+		"/C/Users/Slow/AppData/Local/Temp/Rar$DI01.114/README.md",
+		"/D/Dropbox/PlainText/@Projects/WhiteRabbit/промоутеры.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-19.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-17.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-18.md",
+		"/D/Dropbox/PlainText/@Projects/Printer/Идеи моделей.md",
+		"/D/Dropbox/PlainText/@Projects/Printer/Идеи моделей",
+		"/D/Dropbox/PlainText/@Personal/расходы.todo",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-16.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-15.md",
+		"/D/Downloads/Виниссимо/common-files/css/bootstrap.min.css",
+		"/D/Dropbox/PlainText/2015-04-14.md",
+		"/D/Dropbox/PlainText/@Drafts/Ideas.md",
+		"/D/Dropbox/PlainText/2015-04-13.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-11.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-12.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-10.md",
+		"/D/Dropbox/PlainText/@Mission/Mark III.md",
+		"/D/Dropbox/PlainText/@Personal/bills.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-09.md",
+		"/D/Dropbox/PlainText/о2015-04-10.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-08.md",
+		"/D/Dropbox/PlainText/@Personal/made_me_laugh.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-07.md",
+		"/D/Dropbox/PlainText/@Inbox/instruction.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-06.md",
+		"/C/Users/Slow/AppData/Roaming/Sublime Text 2/Packages/User/md-to-epub.sublime-build",
+		"/D/Dropbox/PlainText/@Projects/Reputation Classifieds/cp.md",
+		"/C/Users/Slow/AppData/Roaming/Sublime Text 2/Packages/User/md-to-word.sublime-build",
+		"/D/Dropbox/PlainText/1.md",
+		"/D/Dropbox/PlainText/@Projects/WhiteRabbit/скрипт.md",
+		"/D/Dropbox/PlainText/@Projects/Reputation Classifieds/Тексты.md",
+		"/D/Dropbox/PlainText/@Projects/Reputation Classifieds/cp",
+		"/C/Users/Slow/AppData/Local/Temp/~flashfxp/0324BA6E_edit.tmp/content.php",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-05.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-04.md",
+		"/D/Dropbox/PlainText/@Journal/2015/04/2015-04-03.md",
+		"/D/Dropbox/PlainText/2015-04-04.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Games\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Data",
+			"C:\\Users\\Poke\\AppData\\Roaming\\SpaceEngineers\\Mods\\MoistureVaporator\\Data\\Scripts\\Windmill",
+			"D:\\Games\\Steam\\steamapps\\common\\SpaceEngineers\\Content",
+			"D:\\Games\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Data",
+			"",
+			"D:\\Projects\\PHP\\tests\\slowslow\\catalog",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Material=\"MarsSoil\"",
+			"Material=\"Desert\"",
+			"WorldPlanets",
+			"AtmosphereDetector",
+			"WorldPlanets",
+			"vaporator",
+			"m_generator",
+			"vaporator",
+			"Platinum_01",
+			"Center",
+			"OxygenGen",
+			"Vaporator",
+			"InventoryMaxVolume",
+			"refinery",
+			"Vaporator",
+			"Definitio",
+			"vaporator",
+			"center",
+			"antenna",
+			"blockair",
+			"arcblockair",
+			"BlockAir",
+			"RealBlock",
+			"ArcBlock",
+			"ArcBlockAirVentExhaleLoop3d",
+			"drill",
+			"Vaporator",
+			"MyShipDrillDefinition",
+			"Vaporator",
+			"ToolShipDrillIdle",
+			"powerconsumption",
+			"consumption",
+			"VAporator",
+			"Drill",
+			"public",
+			"texture",
+			"dds",
+			"Vapora",
+			"LOD",
+			"Assembler",
+			"OxygenGe",
+			"\"0.9\"",
+			"0.9",
+			"\"0.1\"",
+			"conveyor",
+			"Vaporat",
+			"appendCustomInfo",
+			"AppendingCustomInfo",
+			"Vaporat",
+			"IMyInventory",
+			"IMyShipDrill",
+			"Sandbox.ModAPI.IMyShipDrill",
+			"Vapor",
+			"GetInventory",
+			"IMyTerminalBlock",
+			"IMyInventory",
+			"IMyInventoryOwner",
+			"IMyInventory",
+			"IMyCubeBlock",
+			"Entity",
+			"atmoDet",
+			"w_density",
+			"AtmosphereDetectionDynamo",
+			"w_density",
+			"appendCustomInfo",
+			"Terminal",
+			"appendCustomInfo",
+			"w_density",
+			"atmoDet",
+			"WorldPlanets",
+			"produced",
+			"tank",
+			"oxygen",
+			"reactor",
+			"generator",
+			"png",
+			"left",
+			"wav",
+			"ARC\\AMB\\",
+			"Amb",
+			"desert",
+			"sand",
+			"snow",
+			"snowstone",
+			"Europa",
+			"Rock",
+			"stones",
+			"smooth",
+			"Iron",
+			"greyscale.col",
+			"41",
+			"stones",
+			"-o ",
+			"http://www.shans2003.host4g.ru/upload/resizer2/7_959011dbcdb253a3894dd7b312e41ba4.jpg",
+			"shans",
+			"button__size",
+			"background-color: #fff",
+			"fff",
+			"\n",
+			"color",
+			"body",
+			", ",
+			"уточнить",
+			"+\n",
+			"th",
+			" class=\"tg-031e\"",
+			" class=\"tg-031e\" ",
+			"[X]",
+			"rename",
+			"комфорт",
+			"ё",
+			".\n",
+			"tmTheme",
+			"ревности",
+			"math",
+			"timestamps",
+			"updated_at",
+			"makeList",
+			"makeLists",
+			"$categoryId",
+			"$category",
+			"isPublished",
+			"ispublished",
+			"octocase",
+			"OctoCase",
+			"octodevel",
+			"OctoDevel",
+			"SlowSlow_Catalog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Material=\"Soil\"",
+			"Material=\"MarsSoil\"",
+			"Vape_WorldPlanets",
+			"Vape_AtmosphereDetector",
+			"Vape_WorldPlanets",
+			"\"0.8\"",
+			"\"0.2\"",
+			"Audio\\ARC\\AMB\\",
+			"smooth.col",
+			"-o output\\",
+			"-o output/",
+			"td",
+			" ",
+			"[x]",
+			"е",
+			"catalog",
+			"Catalog",
+			"slowslow",
+			"SlowSlow",
+			"slowslow_catalog",
+			"slowslow",
+			"catalog",
+			"slowslow",
+			"catalog",
+			"SlowSlow",
+			"Catalog",
+			"SlowSlow",
+			"Catalog",
+			"SlowSlow",
+			"catalog",
+			"slowslow",
+			"slowslow.catalog",
+			"\t\t\t'label' => 'Электронная почта',\n\t\t\t'required' => false,",
+			"\t\t\t'label' => 'Электронная почта',\n\t\t\t'required' => true,",
+			"счет",
+			"Бизнес...",
+			"проиграл",
+			"Очень жаль",
+			".",
+			"",
+			" в лотерее ",
+			"в лотерее",
+			"выйграл",
+			"Поздравляем!!!",
+			"",
+			"Выпить",
+			"$Local:3",
+			"$Local:0%",
+			"Фриланс...",
+			"Повседневный",
+			"Выбрать наряд.../",
+			"Экспресс-доставка...",
+			"Банк-онлайн...",
+			"Вампир.../Вампроциллин-Д...",
+			"Искать соседа по квартире",
+			"Шитье",
+			"Гончарное мастерство",
+			"Написать ресторанный справочник",
+			"Лазить в интернете",
+			"Отпуск...",
+			"Купить дачу",
+			"Купить ",
+			"Купить помидоры",
+			"Антирастин",
+			"Ростоман",
+			"Механика",
+			"Развивать навыки...",
+			"Рыбная ловля",
+			"Садоводство",
+			"Верхняя одежда",
+			"Купить ошейник",
+			"Купить игры",
+			"Семья",
+			"Перевод",
+			"Интернет-банк",
+			"Вампроциллин",
+			"Вампир...",
+			"Ликантропик",
+			"Оборотень...",
+			"Гадалка...",
+			"Вклад для детей",
+			"Купить питомца",
+			"на оплату колледжа",
+			"Внести",
+			"Частная",
+			"Гость",
+			"Работник",
+			"Развивать таланты...",
+			"Безопасность",
+			"Косметология",
+			"Пополнение запасов",
+			"Кассир",
+			"Работник...",
+			"Роботы",
+			"Для домашнего бизнеса",
+			"Закрыть предприятие",
+			"Начать домашний бизнес",
+			"Для этого участка",
+			"Продать участок",
+			"На общественном участке",
+			"Информация о предприятии...",
+			"Для общественного участка",
+			"Нанять работников...",
+			"Предприятие...",
+			"Заказать сделку",
+			"Купить общественный участок",
+			"Недвижимость...",
+			"Купить Вампроциллин-Д",
+			"Купить любовное зелье",
+			"Авт. написание статей (PM)",
+			"Купить одеколон",
+			"Оплатить счета",
+			"Писать роман",
+			"Выполнить домашнее задание",
+			"Школа...",
+			"Счета...",
+			"Интернет-банк...",
+			"Выйти на пенсию",
+			"Выбрать профессию",
+			"Карьера",
+			"Для всех",
+			"Выбрать одежду.../",
+			"Без ничего",
+			"Выбрать одежду",
+			"Выбрать одежду.../",
+			"Электронные устройства...",
+			"Спортивная",
+			"Нижнее белье"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/Vaporator.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/AtmosphereDetector.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Data/DustyDesertPlanet.sbc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20387,
+								20387
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Games/Need for Speed - Most Wanted/d3d9.ini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Poke/Documents/My Games/OpenMW/launcher.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Poke/Documents/My Games/OpenMW/settings.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/Games/TES3MP/tes3mp-server-default.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								125
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/Games/TES3MP/tes3mp-client-default.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Poke/AppData/Roaming/Fallout/5e858937cf54aeb9bf2108ddd8336de9/f1_res.ini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/D/Games/OpenMW/openmw.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/D/WORK/Morrowind/Heads/Obj/headm13.mtl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Poke/Documents/My Games/OpenMW/Fonts/openmw_font.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								196
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Data/AmbientSounds.sbc",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/Data/Scripts/Vaporator/WorldPlanets.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/Poke/AppData/Roaming/SpaceEngineers/Mods/MoistureVaporator/modinfo.sbmi",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "desert.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Projects/Reputation/Коммерческое предложение.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Poke\\AppData\\Roaming\\SpaceEngineers\\Mods\\DustyDesertPlanet\\desert.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
